@@ -1,0 +1,224 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+h2.tut{
+	color:white;
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:16px;
+	padding:12px 0 0 58px;
+	text-transform:uppercase;
+	text-shadow:2px 1px 6px #333;
+}
+
+#twitter-ticker{
+	width:200px;
+	height:300px;
+	background:url(img/slickbg.png) no-repeat #f5f5f5;
+	color:grey;
+	display:none;
+	text-align:left;
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+}
+
+#tweet-container{
+	height:230px;
+	width:auto;
+	overflow:hidden;
+}
+
+#twitIcon img{
+	position:absolute;
+	display:inline;
+	float:left;
+	top:-25px;
+	left:-10px;
+	width:64px;
+	height:64px;
+}
+
+#top-bar{
+	height:45px;
+	border-bottom:1px solid white;
+	position:relative;
+	margin-bottom:8px;
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+}
+
+.tweet{
+	padding:5px;
+	margin:0 8px 8px;	
+	border:1px solid #F0F0F0;
+	background:url(img/transparent.png);	
+	width:auto;
+	overflow:hidden;
+}
+
+.tweet .avatar,
+.tweet .user,
+.tweet .time{
+	float:left;
+}
+
+.tweet .time{
+	text-transform:uppercase;
+	font-size:10px;
+	white-space:nowrap;
+}
+
+
+.tweet .avatar img{
+	width:36px;
+	height:36px;
+	border:2px solid #eeeeee;
+	margin:0 5px 5px 0;
+}
+
+.tweet .txt{
+	clear:both;
+}
+
+.tweet .user{
+	font-weight:bold;
+}
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#loading{
+	margin:100px 95px;
+}
+
+p{
+	padding-top:7px;
+}
+
+#twitter-ticker{
+	margin:40px auto 20px;
+}
+
+body{
+	color:white;
+	font-size:13px;
+	background: #002233;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#main{
+	margin:40px auto;
+	text-align:center;
+	width:420px;
+}
+
+h1{
+	color:white;
+	font-size:36px;
+	font-weight: normal;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+h1+p{
+	margin:20px 0;
+}
+
+/* jScrollPane Customizations */
+
+.jspVerticalBar {
+	right: 4px !important;
+	width: 9px !important;
+}
+
+.right {
+    float:right;
+}
+.hide {
+    display:none
+}
+
+/* --------- COLLAPSIBLE PANELS ----------*/
+ 
+.expandable-panel {
+    width:100%;
+    min-height:50px;
+    overflow:auto;
+    margin-bottom: 20px;
+ 	-moz-border-top-right-radius:6px 6px 0 0;
+	-moz-border-top-left-radius:6px 6px 0 0;
+	-khtml-border-top-right-radius: 6px;
+	-khtml-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+}  
+#expandable-panel-heading {
+    width:100%;
+    cursor:pointer;
+    min-height:50px;
+    clear:both;
+    background-color:lime;
+}
+#expandable-panel-heading:hover {
+    color:white;
+}
+#expandable-panel-heading h2 {
+	padding:15px 0 0 58px;
+    font-size:16px;
+    line-height:20px;
+}
+#expandable-panel-content {
+    background-color:white;
+	height:220px;
+	width:170px;
+ 	margin:40px auto 20px;
+	position:absolute;
+	z-index: 1;
+	text-align: left;
+	padding: 5px;
+	border: 10px;
+	border-style:solid;
+	border-color:blue;	
+	font-size:11px;
+	font-weight: normal;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	
+	-moz-border-bottom-right-radius: 0 0 6px 6px;
+	-moz-border-bottom-left-radius: 0 0 6px 6px;
+	-khtml-border-bottom-right-radius: 6px;
+	-khtml-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+}
+#twitHeading {
+ 	position:absolute;
+	display:inline;
+	float:left;
+}
+#opencloseicon {
+ 	position:absolute;
+	display:inline;
+	float:right;
+	top:10px;
+	right:20px;
+	width:24px;
+	height:24px;
+}
+.header-active {
+    background-color:teal;
+}
